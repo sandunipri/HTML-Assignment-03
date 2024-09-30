@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case 01</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .square-01 {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+        border: 1px solid black;
+      }
+      .square-02 {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: green;
+        border: 1px solid black;
+      }
+      .square-03 {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+      .square-04 {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: palevioletred;
+        border: 1px solid black;
+      }
+      .circle-01 {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0 0 500px 0;
+      }
+      .circle-02 {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 0 500px;
+      }
+      .circle-03 {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0 500px 0 0;
+      }
+      .circle-04 {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 500px 0 0 0;
+      }
+      .mid-circle {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 500px;
+      }
+      .circle-05 {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 500px;
+      }
+      .rectangle {
+        width: 75px;
+        height: 75px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .mid-square {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="square-01">
+      <div class="circle-01"></div>
+      <div class="circle-02"></div>
+      <div class="circle-05">
+        <div class="rectangle"></div>
+      </div>
+    </div>
+    <div class="square-02">
+      <div class="circle-01"></div>
+      <div class="circle-02"></div>
+      <div class="circle-05">
+        <div class="rectangle"></div>
+      </div>
+    </div>
+    <div class="square-03">
+      <div class="circle-03"></div>
+      <div class="circle-04"></div>
+      <div class="circle-05">
+        <div class="rectangle"></div>
+      </div>
+    </div>
+    <div class="square-04">
+      <div class="circle-03"></div>
+      <div class="circle-04"></div>
+      <div class="circle-05">
+        <div class="rectangle"></div>
+      </div>
+    </div>
+    <div class="mid-square">
+      <div class="mid-circle"></div>
+    </div>
+  </body>
+</html>
