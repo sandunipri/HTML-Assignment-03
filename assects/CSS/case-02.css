@@ -1,0 +1,90 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-right: 10px;
+  column-gap: 60px;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  color: white;
+  position: absolute;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  width: 100%;
+  min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  width: 20%;
+  /* min-height: 100%; */
+  height: auto;
+  background-color: purple;
+}
+.content {
+  width: 80%;
+  /* min-height: 100%; */
+  height: auto;
+  padding: 15px;
+  border-top: 5px solid black;
+  /* background-color: rgb(213, 129, 129); */
+}
+#menu-nav {
+  margin: 0;
+  padding: 20px 0 0 10px;
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.videos {
+  width: 100%;
+  height: 300px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+}
+.videos img {
+  width: calc(100% / 3);
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+.paragraph {
+  width: 100%;
+  height: auto;
+}
